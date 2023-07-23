@@ -1,4 +1,4 @@
-Hello;
+
 Basic CRUD of an account
 To store the user information in a database and do proper token authentication
 
