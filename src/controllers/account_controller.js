@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const Joi = require('joi');
 
 const CustomError = require('../errors');
-const {AccountModel, AccountObject} = require('../models/account_model');
+const {AccountModel, AccountObject} = require('../models/accounts_schema');
 
 
 const createAccount = async (req, res) => {
